@@ -4,6 +4,9 @@ body{
     background-color: rgb(10, 49, 118);
     color:white;
 }
+#current{
+    color:white;
+}
 section{
     display: flex;
     flex-flow:row;

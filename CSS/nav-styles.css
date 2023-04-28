@@ -19,9 +19,7 @@
     height:100%;
     font-family: 'Roboto', sans-serif;
 }
-#current{
-    color:rgb(13, 224, 13);
-}
+
 
 .links{
     display: flex;
