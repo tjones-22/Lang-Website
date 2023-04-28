@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    background-color: rgb(10, 49, 118);
+    color:white;
+}
+section{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 100px;
+    width:100%;
+    height:100%;
+}
+p{
+    width:50%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:100%;
+    padding:1rem;
+    margin-top:50px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-left:100px;
+}
+.mySlides {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.mySlides img{
+  width:400px;
+  height:300px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
