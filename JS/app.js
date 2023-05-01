@@ -1,5 +1,5 @@
- var slideIndex = 0;
-        showSlides();
+var slideIndex = 0;
+showSlides();
         
         function showSlides() {
           var i;
@@ -18,4 +18,20 @@
           }, 2000); // Remove fade class after 1s
           setTimeout(showSlides, 2000); // Change image every 4 seconds
         }
-        
+
+  const submitBtn = document.querySelector('#submit');
+  const resultsDiv = document.querySelector('.submit-results');
+  
+ 
+  submitBtn.addEventListener('click', function() {
+    const name = document.querySelector("#name");
+    const email = document.querySelector("#email");
+    const ideas = document.querySelector("#thoughts")
+    console.log(`${name.value} ${email.value} ${ideas.value}`)
+    if(name || email || ideas) {
+    resultsDiv.textContent = "Error";
+    } else{
+      resultsDiv.textContent = "Submitted Successfully";
+    }
+  });
+
