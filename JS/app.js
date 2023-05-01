@@ -15,7 +15,7 @@
           slides[slideIndex - 1].classList.add("fade");
           setTimeout(function() {
             slides[slideIndex - 1].classList.remove("fade");
-          }, 4000); // Remove fade class after 1s
+          }, 2000); // Remove fade class after 1s
           setTimeout(showSlides, 2000); // Change image every 4 seconds
         }
         
