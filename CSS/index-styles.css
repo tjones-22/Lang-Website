@@ -1,9 +1,4 @@
-body{
-    margin: 0;
-    font-family: monospace;
-    background-color: rgb(10, 49, 118);
-    color:white;
-}
+
 section{
   display: flex;
   flex-flow: column;
@@ -13,9 +8,7 @@ section{
   height:100%;
   margin-top: 300px;
 }
-#current{
-    color:white;
-}
+
 .slideshow{
     display: flex;
     flex-flow:row;

@@ -1,3 +1,13 @@
+
+body{
+    margin: 0;
+    font-family: monospace;
+    background-color: rgb(10, 49, 118);
+    color:white;
+}
+#current{
+    color:white;
+}
 .nav-wrapper{
     display: flex;
     flex-flow: row;
