@@ -30,12 +30,12 @@
 }
 .links a{
     text-decoration: none;
-    color:rgb(221, 9, 221);
+    color:rgb(51, 11, 159);
     font-weight: bold;
     transition: 0.4s;
     font-family: sans-serif;
 }
 .links a:hover{
-    color:orange;
+    color:gold;
     letter-spacing: 2px;
 }
