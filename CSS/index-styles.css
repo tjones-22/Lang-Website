@@ -104,3 +104,11 @@ h1{
   color:black;
   font-weight: bold;
 }
+#submit {
+  transition: 0.4s;
+
+}
+#submit:hover{
+ background-color: navy;
+ transform: scale(0.9);
+}
