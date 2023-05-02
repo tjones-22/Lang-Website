@@ -25,3 +25,17 @@ p{
     height:100%;
     padding: 20px;
 }
+.works-cited{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.works-cited a{
+    transition: 0.4s;
+}
+.works-cited a:hover{
+    color:purple;
+    font-size:14px;
+}
+#works-cited{
+    text-align: center;
+}
